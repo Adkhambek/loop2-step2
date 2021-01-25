@@ -1,0 +1,122 @@
+/* 
+black: #2f2f2f
+yellow: #fdec51
+gray: #aaaaaa
+placeholder color: #757579
+x botton: #7e762a
+cancel and save color: #6f6a3f
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    width: 450px;
+    background-color: #fdec51;
+    padding: 30px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-title{
+    font-weight: 400;
+}
+.crose-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #7e762a;
+    transition: color .1s ease;
+}
+.crose-link:hover{
+    color: #000000;
+}
+.card-body{
+    width: 480px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: -5px 5px 15px -5px rgba(0, 0, 0, 0.5) ;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.account-avatar{
+    border-radius: 50%;
+    transform: translateY(-65px);
+}
+.form{
+    margin-top: -40px;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+label p{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+label input{
+    font-size: 18px;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+    outline: 0;
+}
+label input::placeholder{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.fullname{
+    display: flex;
+}
+.fullname label{
+    width: 100%;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+    outline: 0;
+    resize: vertical;
+    max-height: 200px;
+}
+textarea::placeholder{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-action{
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-60px , 80px);
+}
+.action-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7e762a;
+    transition: color .1s ease;
+}
+.action-btn:hover{
+    color: #000000;
+}
